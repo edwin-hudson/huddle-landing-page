@@ -16,15 +16,29 @@ body {
     justify-content: center;
     font-family: "Poppins", sans-serif;
     font-family: "Open Sans", sans-serif;
-    width: 90rem;
     background: var(--Violet);
     background-image: url(images/bg-desktop.svg);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: auto;
+    /* width: 90rem; */
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 90rem;
+    height: 90%;
 }
 
 article {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    height: 80%;
+}
 
+.title {
+    
 }
