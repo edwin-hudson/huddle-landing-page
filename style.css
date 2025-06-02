@@ -1,6 +1,9 @@
 :root {
 --Violet: hsl(257, 40%, 49%);
 --Soft-Magenta: hsl(300, 69%, 71%);
+--White: hsl(0, 0%, 100%);
+
+--blur: hsl(256, 39%, 38%);
 }
 
 * {
@@ -32,11 +35,91 @@ main {
     height: 90%;
 }
 
+header {
+    height: 20%;
+}
+
+header img {
+    /* margin-left: 5rem;
+    padding-top: 5rem; */
+}
+
+.logo {
+    height: 5rem;
+}
+
 article {
     display: flex;
     flex-direction: row;
     align-items: center;
-    height: 80%;
+    height: 75%;
+    padding: 0 2rem;
+}
+
+.image {
+    width: 60%;
+}
+
+.image img {
+    margin-left: 6rem;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 3rem 0 3rem 2rem;
+    color: var(--White);
+    width: 40%;
+}
+
+.title {
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.desc {
+    font-size: 1.14rem;
+    margin-bottom: 1.2rem;
+}
+
+button {
+    font-size: 1.2rem;
+    color: var(--Violet);
+    background: var(--White);
+    width: 40%;
+    height: 3.5rem;
+    margin-top: 1.2rem;
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    cursor: pointer;
+    box-shadow: 0 5px 15px 5px var(--blur);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    color: var(--White);
+    background: var(--Soft-Magenta);
+}
+
+
+footer {
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    gap: 1.5rem;
+    justify-content: end;
+    color: var(--White);
+}
+
+.fa-brands::before {
+    content: "";
+    border: solid 0.12rem var(--White);
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
 }
 
 .title {
