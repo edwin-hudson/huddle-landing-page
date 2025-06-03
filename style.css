@@ -190,13 +190,13 @@ main {
     }
 
     .heading {
-        font-size: 1.6rem;
+        font-size: 2rem;
         font-weight: 600;
         margin-bottom: 1rem;
     }
 
     .desc {
-        font-size: 0.8rem;
+        font-size: 0.82rem;
         font-weight: 300;
     }
 
@@ -209,7 +209,7 @@ main {
         background: var(--White);
         outline: none;
         border: none;
-        width: 40%;
+        width: 35%;
         border-radius: 5rem;
         cursor: pointer;
     }  
